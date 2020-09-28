@@ -1,0 +1,9 @@
+<hr>
+<router-outlet></router-outlet>
+<hr>
+
+<div *ngFor="let user of allUser">
+
+  <app-user [user]="user"></app-user>
+
+</div>
